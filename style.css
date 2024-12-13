@@ -1,0 +1,14 @@
+h1{
+  
+  color: blueviolet;
+  background-color: aqua;
+  font-size: 50px;
+  font-family:cursive;
+  font-weight: 100;
+  text-align: center;
+
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
