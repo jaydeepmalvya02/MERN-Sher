@@ -1,14 +1,36 @@
-h1{
-  
-  color: blueviolet;
-  background-color: aqua;
-  font-size: 50px;
-  font-family:cursive;
-  font-weight: 100;
-  text-align: center;
+html body{
+  background-color: black;
+}
+.child{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border: 2px solid white;
+  background-size: cover;
+  background-position: center;
 
 }
-html, body{
+#parent {
   height: 100%;
   width: 100%;
+  background-color: black;
+  display: flex;
+  align-items:center;
+  justify-content:space-evenly;
+
+
+}
+
+#child1{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg) ;
+  
+}
+#child2{
+  background-image: url(https://img.mensxp.com/media/content/2020/Sep/Greatest-Fielding-Efforts-By-Virat-Kohli-1200x900_5f6daf245852f.jpeg);
+
+
+}
+#child3{
+  background-image: url(https://images.assettype.com/outlookindia/2024-05/9f371a3a-a10f-4942-b27f-2a3eaafe5c98/virat-kohli.png);
+  
 }
