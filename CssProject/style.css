@@ -1,0 +1,123 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:aeonik;
+
+}
+html,
+body{
+  height:100%;
+  width:100%;
+
+}
+main{
+  /* - */
+  width:100%;
+  background-color: #d5ff40;
+
+}
+nav{
+  /* background: blue; */
+  padding: 60px 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .part2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+nav h2{
+  font-size: 48px;
+  font-weight: 500;
+  /* font-style: italic; */
+
+}
+nav a{
+   font-size: 39px;
+   color:black;
+   font-weight: 500;
+   text-decoration: none;
+}
+section{
+  
+  /* background-color: #d5ff40; */
+  padding: 60px 140px;
+}
+
+section .hero-text1{
+  /* background-color: red; */
+  display:flex;
+  align-items:flex-start;
+  justify-content: space-between;
+
+}
+.hero-text1 h1{
+  font-size:170px;
+  text-transform: uppercase;
+  font-weight: 1700px;
+  line-height: 190px;
+}
+.hero-text1 .video{
+  height:100px;
+  width: 900px;
+  background-color: black;
+  border-radius: 100px;
+  margin-top: 40px;
+  background-image: url(https://t4.ftcdn.net/jpg/05/45/42/81/360_F_545428173_uyYWJoR9n5uJFYIWfDa2C49AzIECcU20.jpg);
+  background-size: cover;
+  padding: 12px;
+  /* background-position: right; */
+}
+.video .play{
+  height: 100%;
+  width: 160px;
+  background-color: black; 
+  border-radius: 100px;
+  border: 2px solid #fff ;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+
+}
+.play i{
+  font-size: 50px;
+  color: #fff;
+
+}
+section .hero-text2{
+  /* background-color: red; */
+  display:flex;
+  align-items:flex-end;
+  justify-content: space-between;
+
+}
+.hero-text2 h1{
+  font-size:170px;
+  text-transform: uppercase;
+  font-weight: 1700px;
+  line-height: 190px;
+}
+.hero-text2 p{
+  font-size:40px;
+  width: 700px;
+  text-transform: uppercase;
+  /* font-weight: 1700px; */
+  /* line-height: 190px; */
+}
+.image{
+  height: 1200px;
+  width: 90%;
+  margin-left: 5%;
+
+  background-color: red;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background-size: cover;
+  background-image: url(https://t4.ftcdn.net/jpg/08/21/40/17/360_F_821401768_MzD1G7WNELnpSpn1LZcLYW9ShNXIwCaZ.jpg)
+  
+}
