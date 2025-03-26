@@ -1,0 +1,31 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+html,
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: rgb(18, 0, 66);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 2rem;
+  margin: 1rem;
+  color:yellow;
+  background-color:black;
+  padding: 20px;
+}
+h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color:rgb(94, 255, 0);
+  background-color:black;
+  padding: 20px;
+}
